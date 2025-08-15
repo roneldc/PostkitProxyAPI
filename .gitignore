@@ -1,0 +1,40 @@
+# Build Results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Core secrets
+appsettings.Development.json
+
+# Logs
+*.log
+logs/
+*.nlog
+
+# EF Core Migrations snapshots (optional if you want to exclude history)
+Migrations/*.cs
+
+# Database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# dotnet-generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/

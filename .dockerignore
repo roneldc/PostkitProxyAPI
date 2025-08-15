@@ -1,0 +1,27 @@
+# Ignore build output
+bin/
+obj/
+out/
+*.user
+*.vspscc
+
+# Ignore Rider/VS Code/Visual Studio settings
+.vscode/
+.idea/
+.vs/
+
+# Ignore test results and logs
+TestResults/
+*.log
+
+# Ignore Docker files that shouldn’t be copied
+Dockerfile
+.dockerignore
+
+# Ignore Git metadata
+.git/
+.gitignore
+
+# Ignore OS-specific files
+*.DS_Store
+Thumbs.db
