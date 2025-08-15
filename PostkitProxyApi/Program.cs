@@ -93,6 +93,9 @@ app.MapGet("/ui/tenants/{tenantId}/credentials", async (string tenantId, string 
 })
 .RequireCors("AllowUI");
 
+app.MapGet("/", () => Results.Ok("Postkit Proxy API is running"));
+app.MapGet("/health", () => Results.Ok("Healthy"));
+
 app.Run();
 
 public record CreateTenantDto(string AppName, string Email);
